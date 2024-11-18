@@ -7,7 +7,7 @@ public class demo07 {
         System.out.println(score(6,100,0));
     }
 
-    public static int score(int n, int max, int min) {
+    public static double score(int n, int max, int min) {
         int[] arr = new int[n];
         Scanner sc = new Scanner(System.in);
         System.out.println("between " + min + " and " + max);
