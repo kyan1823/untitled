@@ -22,15 +22,15 @@ public class demo06 {
             int type = rand.nextInt(3);
             switch (type) {
                 case 0:
-                //number
+                //number 数字
                     n = rand.nextInt(10) + 48;
                     break;
                 case 1:
-                //capital_char
+                //capital_char 大写字母
                     n = rand.nextInt(26) + 65;
                     break;
                 case 2:
-                //char
+                //char 小写字母
                     n = rand.nextInt(26) + 97;
                     break;
             }
