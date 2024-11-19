@@ -21,7 +21,7 @@ public class demo07 {
         }
         int sum = sum(arr);
         int m = maxplusmin(arr,max,min);
-        return (sum - m)/(n - 2);
+        return 1.0 * (sum - m)/(n - 2);
     }
 
     public static int sum(int[] arr) {
